@@ -17,7 +17,7 @@
     });
   }
 
-  document.querySelectorAll(".how-nav-links a, .how-nav-cta").forEach(function (link) {
+  document.querySelectorAll(".how-nav-links a, .how-nav-cta, .how-nav-mark").forEach(function (link) {
     link.addEventListener("click", function () {
       setNavOpen(false);
     });
