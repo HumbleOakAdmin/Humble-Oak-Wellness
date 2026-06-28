@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <base href="/Humble-Oak-Wellness/">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta http-equiv="X-Content-Type-Options" content="nosniff">
@@ -13,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=2">
 </head>
 <body data-page="home">
   <div class="how-nav-backdrop" id="howNavBackdrop" aria-hidden="true"></div>
@@ -48,7 +49,7 @@
       </div>
     </section>
 
-    <section class="how-section">
+    <section class="how-section how-section--warm">
       <div class="how-intro-inner">
         <div class="how-intro-text how-prose how-anim">
           <h2 class="how-heading-section how-heading-section--prominent">Welcome to Humble Oak Wellness</h2>
@@ -155,10 +156,13 @@
           <a href="contact-us/" data-page="contact">Contact Us</a>
         </div>
       </div>
-      <div class="how-footer-bar"><span>&copy; 2026 Humble Oak Wellness &middot; Abbotsford, BC &middot; A Humble Oak Holdings Company</span></div>
+      <div class="how-footer-bar">
+        <span>&copy; 2026 Humble Oak Wellness &middot; Abbotsford, BC &middot; A Humble Oak Holdings Company</span>
+        <p class="how-footer-powered">Powered by <a href="https://www.humbleoaksolutions.com/" target="_blank" rel="noopener noreferrer">Humble Oak Solutions</a></p>
+      </div>
     </div>
   </footer>
 
-  <script src="assets/site.js"></script>
+  <script src="assets/site.js?v=2"></script>
 </body>
 </html>
