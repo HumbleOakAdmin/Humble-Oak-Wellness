@@ -14,6 +14,12 @@ Built with the same static-site approach as [Humble Oak Solutions](https://www.h
 
 This is a pilot for internal review. Content marked as placeholder; site is set to `noindex`.
 
+**Live preview (GitHub Pages):** https://humbleoakadmin.github.io/Humble-Oak-Wellness/
+
+## Domain & Email
+
+**humbleoakwellness.com** is registered on IONOS and used for email. DNS is intentionally unchanged — the website is hosted on GitHub Pages only until a future launch decision.
+
 ## Local Preview
 
 ```powershell
@@ -33,7 +39,7 @@ Branding and website docs live in OneDrive:
 
 ## Deployment
 
-GitHub Pages from `main` branch. See `CNAME` for target domain `www.humbleoakwellness.ca`.
+GitHub Pages from `main` branch (project site — no custom domain configured).
 
 ## License
 

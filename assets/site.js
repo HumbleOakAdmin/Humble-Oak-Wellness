@@ -114,7 +114,7 @@
           message
       );
       window.location.href =
-        "mailto:info@humbleoakwellness.ca?subject=" + subject + "&body=" + body;
+        "mailto:info@humbleoakwellness.com?subject=" + subject + "&body=" + body;
     });
   }
 })();
