@@ -14,20 +14,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css?v=3">
+  <link rel="stylesheet" href="assets/styles.css?v=4">
 </head>
 <body data-page="contact">
   <div class="how-nav-backdrop" id="howNavBackdrop" aria-hidden="true"></div>
   <nav class="how-nav" id="howNav" aria-label="Main navigation">
-    <div class="how-nav-header">
-      <button type="button" class="how-nav-toggle" id="howNavToggle" aria-label="Open menu" aria-expanded="false" aria-controls="howNavPanel">
-        <span></span><span></span><span></span>
-      </button>
-      <a href="./" class="how-nav-mark" aria-label="Humble Oak Wellness home">
+    <button type="button" class="how-nav-toggle" id="howNavToggle" aria-label="Open menu" aria-expanded="false" aria-controls="howNavPanel">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="how-nav-panel" id="howNavPanel">
+      <a href="./" class="how-nav-logo" aria-label="Humble Oak Wellness home">
         <img src="assets/images/logos/wellness-icon.jpeg" alt="">
       </a>
-    </div>
-    <div class="how-nav-panel" id="howNavPanel">
       <div class="how-nav-links">
         <a href="./" class="how-nav-link" data-page="home">Home</a>
         <a href="about-us/" class="how-nav-link" data-page="about">About</a>
@@ -38,7 +36,7 @@
   </nav>
 
   <main>
-    <section class="how-page-hero" style="background-image:url('https://images.unsplash.com/photo-1629909613654-996e9133d113?w=1920&q=80')">
+    <section class="how-page-hero" style="background-image:url('assets/images/site/hero-contact.jpg')">
       <div class="how-page-hero-overlay"></div>
       <div class="how-page-hero-content">
         <p class="how-page-hero-tag how-anim">Contact Us</p>
@@ -132,7 +130,7 @@
           <p>We welcome patients from Abbotsford, Mission, Chilliwack, Langley, and surrounding communities. Easy access from Highway 1 (Exit 92) and transit routes along South Fraser Way.</p>
         </div>
         <div class="how-map-photo how-anim">
-          <img src="https://images.unsplash.com/photo-1623438367812-edb057c0f080?w=900&q=80" alt="Sunlit forest trail in British Columbia's Fraser Valley region">
+          <img src="assets/images/site/forest-trail.jpg" alt="Sunlit forest trail in the Fraser Valley region of British Columbia" width="900" height="600" loading="lazy" decoding="async">
         </div>
       </div>
     </section>
@@ -143,7 +141,7 @@
       <div class="how-footer-nav-cols">
         <div class="how-footer-brand">
           <a href="./" class="how-footer-logo-link">
-            <img class="how-footer-logo" src="assets/images/logos/wellness-logo.jpeg" alt="Humble Oak Wellness">
+            <img class="how-footer-logo-img" src="assets/images/logos/wellness-logo.jpeg" alt="Humble Oak Wellness" width="240" height="120" loading="lazy" decoding="async">
           </a>
           <p>Allied health and wellness in Abbotsford, BC.<br>A subsidiary of Humble Oak Holdings.</p>
           <div class="how-footer-social" aria-label="Social media">
@@ -164,6 +162,6 @@
     </div>
   </footer>
 
-  <script src="assets/site.js?v=3"></script>
+  <script src="assets/site.js?v=4"></script>
 </body>
 </html>

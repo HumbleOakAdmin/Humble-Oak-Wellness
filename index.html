@@ -14,20 +14,18 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css?v=3">
+  <link rel="stylesheet" href="assets/styles.css?v=4">
 </head>
 <body data-page="home">
   <div class="how-nav-backdrop" id="howNavBackdrop" aria-hidden="true"></div>
   <nav class="how-nav" id="howNav" aria-label="Main navigation">
-    <div class="how-nav-header">
-      <button type="button" class="how-nav-toggle" id="howNavToggle" aria-label="Open menu" aria-expanded="false" aria-controls="howNavPanel">
-        <span></span><span></span><span></span>
-      </button>
-      <a href="./" class="how-nav-mark" aria-label="Humble Oak Wellness home">
+    <button type="button" class="how-nav-toggle" id="howNavToggle" aria-label="Open menu" aria-expanded="false" aria-controls="howNavPanel">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="how-nav-panel" id="howNavPanel">
+      <a href="./" class="how-nav-logo" aria-label="Humble Oak Wellness home">
         <img src="assets/images/logos/wellness-icon.jpeg" alt="">
       </a>
-    </div>
-    <div class="how-nav-panel" id="howNavPanel">
       <div class="how-nav-links">
         <a href="./" class="how-nav-link" data-page="home">Home</a>
         <a href="about-us/" class="how-nav-link" data-page="about">About</a>
@@ -39,7 +37,7 @@
 
   <main>
     <section class="how-hero">
-      <div class="how-hero-bg" style="background-image:url('https://images.unsplash.com/photo-1519832972-119491316a35?w=1920&q=80')"></div>
+      <div class="how-hero-bg" style="background-image:url('assets/images/site/hero-home.jpg')"></div>
       <div class="how-hero-overlay"></div>
       <div class="how-hero-content">
         <span class="how-pilot-badge how-anim">Stakeholder Preview</span>
@@ -63,9 +61,9 @@
         </div>
         <div class="how-intro-gallery how-anim">
           <div class="how-home-photos-grid">
-            <img src="https://images.unsplash.com/photo-1591348278868-562cb56f8113?w=800&q=80" alt="Registered massage therapy treatment in a calm, professional clinic setting">
-            <img src="https://images.unsplash.com/photo-1573496359145-b8ebb4313753?w=800&q=80" alt="Counselling and supportive conversation in a welcoming wellness environment">
-            <img src="https://images.unsplash.com/photo-1551632817-725ccc441873?w=800&q=80" alt="Happy hikers enjoying a forest trail in the Pacific Northwest">
+            <img src="assets/images/site/welcome-massage.jpg" alt="Registered massage therapy in a calm clinic setting" width="800" height="600" loading="lazy" decoding="async">
+            <img src="assets/images/site/welcome-counselling.jpg" alt="Counselling and supportive conversation in a welcoming space" width="800" height="600" loading="lazy" decoding="async">
+            <img src="assets/images/site/welcome-outdoors.jpg" alt="Happy hikers on a mountain trail in British Columbia" width="800" height="600" loading="lazy" decoding="async">
           </div>
         </div>
       </div>
@@ -90,27 +88,27 @@
         <p class="how-body how-sp-sub how-anim">From acute injury to ongoing wellness, our Abbotsford team offers integrated care across key allied health disciplines. Service pages and practitioner profiles coming in a future phase.</p>
         <div class="how-sp-grid">
           <div class="how-sp-card how-anim">
-            <div class="how-sp-card-media" style="background-image:url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80')" role="img" aria-label="Chiropractic care"></div>
+            <div class="how-sp-card-media" style="background-image:url('assets/images/site/service-chiro.jpg')" role="img" aria-label="Chiropractic care"></div>
             <div class="how-sp-card-label"><h4 class="how-heading-card">Chiropractic</h4><p class="how-sp-card-desc">Spinal and musculoskeletal care for pain relief and mobility.</p></div>
           </div>
           <div class="how-sp-card how-anim">
-            <div class="how-sp-card-media" style="background-image:url('https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80')" role="img" aria-label="Physiotherapy"></div>
+            <div class="how-sp-card-media" style="background-image:url('assets/images/site/service-physio.jpg')" role="img" aria-label="Physiotherapy"></div>
             <div class="how-sp-card-label"><h4 class="how-heading-card">Physiotherapy</h4><p class="how-sp-card-desc">Evidence-based rehab to restore movement and function.</p></div>
           </div>
           <div class="how-sp-card how-anim">
-            <div class="how-sp-card-media" style="background-image:url('https://images.unsplash.com/photo-1600334129128-685c5582fd35?w=800&q=80')" role="img" aria-label="Massage therapy"></div>
+            <div class="how-sp-card-media" style="background-image:url('assets/images/site/service-massage.jpg')" role="img" aria-label="Massage therapy"></div>
             <div class="how-sp-card-label"><h4 class="how-heading-card">Massage Therapy</h4><p class="how-sp-card-desc">Therapeutic massage for recovery, tension, and stress relief.</p></div>
           </div>
           <div class="how-sp-card how-anim">
-            <div class="how-sp-card-media" style="background-image:url('https://images.unsplash.com/photo-1519823551278-64ac92734fb1?w=800&q=80')" role="img" aria-label="Acupuncture"></div>
+            <div class="how-sp-card-media" style="background-image:url('assets/images/site/service-acupuncture.jpg')" role="img" aria-label="Acupuncture"></div>
             <div class="how-sp-card-label"><h4 class="how-heading-card">Acupuncture</h4><p class="how-sp-card-desc">Traditional and contemporary acupuncture for balance and healing.</p></div>
           </div>
           <div class="how-sp-card how-anim">
-            <div class="how-sp-card-media" style="background-image:url('https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&q=80')" role="img" aria-label="Counselling"></div>
+            <div class="how-sp-card-media" style="background-image:url('assets/images/site/service-counselling.jpg')" role="img" aria-label="Counselling"></div>
             <div class="how-sp-card-label"><h4 class="how-heading-card">Counselling</h4><p class="how-sp-card-desc">Mental health support for individuals and families.</p></div>
           </div>
           <div class="how-sp-card how-anim">
-            <div class="how-sp-card-media" style="background-image:url('https://images.unsplash.com/photo-1476480862128-209a435b5469?w=800&q=80')" role="img" aria-label="Active rehabilitation"></div>
+            <div class="how-sp-card-media" style="background-image:url('assets/images/site/service-rehab.jpg')" role="img" aria-label="Active rehabilitation"></div>
             <div class="how-sp-card-label"><h4 class="how-heading-card">Active Rehab</h4><p class="how-sp-card-desc">Guided exercise programs to rebuild strength and confidence.</p></div>
           </div>
         </div>
@@ -129,7 +127,7 @@
           <p><strong>Hours (placeholder):</strong><br>Mon&ndash;Fri 8:00 AM &ndash; 6:00 PM<br>Sat 9:00 AM &ndash; 2:00 PM</p>
         </div>
         <div class="how-map-photo how-anim">
-          <img src="https://images.unsplash.com/photo-1500382017468-90403fed7f96?w=900&q=80" alt="Rolling farmland and open sky in the Fraser Valley, British Columbia">
+          <img src="assets/images/site/valley-farmland.jpg" alt="Rolling farmland and open sky in the Fraser Valley, British Columbia" width="900" height="600" loading="lazy" decoding="async">
         </div>
       </div>
     </section>
@@ -146,7 +144,7 @@
       <div class="how-footer-nav-cols">
         <div class="how-footer-brand">
           <a href="./" class="how-footer-logo-link">
-            <img class="how-footer-logo" src="assets/images/logos/wellness-logo.jpeg" alt="Humble Oak Wellness">
+            <img class="how-footer-logo-img" src="assets/images/logos/wellness-logo.jpeg" alt="Humble Oak Wellness" width="240" height="120" loading="lazy" decoding="async">
           </a>
           <p>Allied health and wellness in Abbotsford, BC.<br>A subsidiary of Humble Oak Holdings.</p>
           <div class="how-footer-social" aria-label="Social media">
@@ -171,6 +169,6 @@
     </div>
   </footer>
 
-  <script src="assets/site.js?v=3"></script>
+  <script src="assets/site.js?v=4"></script>
 </body>
 </html>
