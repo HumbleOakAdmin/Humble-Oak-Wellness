@@ -1,6 +1,6 @@
 # Humble Oak Wellness
 
-Pilot website for **Humble Oak Wellness** — an allied health clinic in Abbotsford, BC (Fraser Valley). A subsidiary of Humble Oak Holdings.
+Pilot website for **Humble Oak Wellness** — an allied health clinic in Abbotsford, BC (Fraser Valley). Part of the Humble Oak family, offering registered massage therapy and counselling.
 
 Built with the same static-site approach as [Humble Oak Solutions](https://www.humbleoaksolutions.com): HTML, CSS, and vanilla JS — no build step.
 
@@ -43,4 +43,4 @@ GitHub Pages from `main` branch (project site — no custom domain configured).
 
 ## License
 
-Proprietary — Humble Oak Holdings / Humble Oak Wellness.
+Proprietary — Humble Oak Wellness / Humble Oak family.

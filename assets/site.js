@@ -43,6 +43,20 @@
 
   var anims = document.querySelectorAll(".how-anim");
   if (anims.length) {
+    var delayIndex = 0;
+    var lastParent = null;
+    anims.forEach(function (el) {
+      var parent = el.parentElement;
+      if (parent !== lastParent) {
+        delayIndex = 0;
+        lastParent = parent;
+      }
+      if (delayIndex > 0 && delayIndex <= 5) {
+        el.setAttribute("data-delay", String(delayIndex));
+      }
+      delayIndex += 1;
+    });
+
     var obs = new IntersectionObserver(
       function (entries) {
         entries.forEach(function (entry) {
