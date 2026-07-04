@@ -33,12 +33,37 @@
     });
   }
 
+  function normalizePath(path) {
+    if (!path) return "/";
+    path = path.replace(/\/index\.html$/i, "").replace(/\/+$/, "");
+    return path || "/";
+  }
+
   var page = document.body.getAttribute("data-page");
+  var currentPath = normalizePath(window.location.pathname);
+  var basePath = normalizePath(
+    document.querySelector("base")
+      ? new URL(document.querySelector("base").href).pathname
+      : currentPath
+  );
+
   document.querySelectorAll(".how-nav-link").forEach(function (link) {
-    if (link.getAttribute("data-page") === page) link.classList.add("active");
+    link.classList.remove("active");
+    link.removeAttribute("aria-current");
+    var linkPage = link.getAttribute("data-page");
+    if (linkPage !== page) return;
+    if (linkPage === "home" && currentPath !== basePath) return;
+    link.classList.add("active");
+    link.setAttribute("aria-current", "page");
   });
+
   document.querySelectorAll(".how-footer-links a[data-page]").forEach(function (link) {
-    if (link.getAttribute("data-page") === page) link.classList.add("active");
+    link.classList.remove("active");
+    link.removeAttribute("aria-current");
+    if (link.getAttribute("data-page") === page) {
+      link.classList.add("active");
+      link.setAttribute("aria-current", "page");
+    }
   });
 
   var anims = document.querySelectorAll(".how-anim");
