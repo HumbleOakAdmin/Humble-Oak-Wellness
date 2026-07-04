@@ -209,9 +209,9 @@ img{max-width:100%;display:block;border-radius:var(--radius);box-shadow:var(--sh
 .how-footer-inner{max-width:1200px;margin:0 auto}
 .how-footer-nav-cols{display:grid;grid-template-columns:1.5fr 1fr;gap:clamp(32px,5vw,64px);margin-bottom:28px}
 .how-footer-brand{display:flex;flex-direction:column;align-items:flex-start;gap:4px}
-.how-footer-logo-link{display:inline-block;line-height:0;padding:8px 10px;background:rgba(217,119,36,.18);border-radius:var(--radius);border:1px solid rgba(232,160,77,.35);transition:background .35s var(--ease),border-color .35s var(--ease),transform .35s var(--ease)}
-.how-footer-logo-link:hover{background:rgba(217,119,36,.26);border-color:rgba(232,160,77,.5);transform:translateY(-2px)}
-.how-footer-logo-img{width:min(176px,100%);height:auto;display:block;object-fit:contain}
+.how-footer-logo-link{display:inline-block;line-height:0;width:fit-content;max-width:100%;padding:5px 8px;background:rgba(217,119,36,.15);border-radius:var(--radius);border:1px solid rgba(232,160,77,.32);transition:background .35s var(--ease),border-color .35s var(--ease)}
+.how-footer-logo-link:hover{background:rgba(217,119,36,.22);border-color:rgba(232,160,77,.45)}
+.how-footer-logo-img{width:min(148px,100%);height:auto;display:block;object-fit:contain}
 .how-footer p{font-size:14px;color:rgba(250,247,242,.5);line-height:1.6;margin-top:8px}
 .how-footer-links{display:flex;flex-direction:column;gap:10px;align-items:flex-start}
 .how-footer-links a{font-size:14px;color:rgba(250,247,242,.55);line-height:1.6;font-weight:400;background:transparent;padding:0;border:none;border-radius:0;box-shadow:none;transition:color .3s var(--ease);display:inline-block;width:auto}
