@@ -33,6 +33,18 @@
     });
   }
 
+  var baseEl = document.querySelector("base");
+  if (baseEl) {
+    var homeHref = baseEl.href;
+    document
+      .querySelectorAll(
+        ".how-nav-link[data-page='home'], .how-nav-logo, .how-footer-links a[data-page='home']"
+      )
+      .forEach(function (link) {
+        link.setAttribute("href", homeHref);
+      });
+  }
+
   function normalizePath(path) {
     if (!path) return "/";
     path = path.replace(/\/index\.html$/i, "").replace(/\/+$/, "");
