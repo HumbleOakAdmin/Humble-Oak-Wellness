@@ -10,13 +10,18 @@
   <link rel="canonical" href="https://humbleoakadmin.github.io/Humble-Oak-Wellness/contact-us/">
   <title>Contact Us | Humble Oak Wellness — Abbotsford</title>
   <meta name="description" content="Contact Humble Oak Wellness in Abbotsford, BC. Book an appointment, ask about services, or reach our allied health team. Fraser Valley clinic — placeholder contact details.">
+  <meta name="theme-color" content="#5D3A1A">
+  <meta name="color-scheme" content="light">
   <link rel="icon" href="assets/images/logos/wellness-icon.jpeg" type="image/jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css?v=32">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css?v=40">
+  <link rel="preload" as="image" href="assets/images/site/hero-contact.jpg?v=2">
 </head>
 <body data-page="contact">
+  <div class="how-scroll-progress" id="howScrollProgress" aria-hidden="true"></div>
+  <a class="how-skip" href="#main">Skip to content</a>
   <div class="how-nav-backdrop" id="howNavBackdrop" aria-hidden="true"></div>
   <nav class="how-nav" id="howNav" aria-label="Main navigation">
     <button type="button" class="how-nav-toggle" id="howNavToggle" aria-label="Open menu" aria-expanded="false" aria-controls="howNavPanel">
@@ -35,8 +40,9 @@
     </div>
   </nav>
 
-  <main>
-    <section class="how-page-hero" style="background-image:url('assets/images/site/hero-contact.jpg?v=2')">
+  <main id="main">
+    <section class="how-page-hero">
+      <div class="how-page-hero-bg" style="background-image:url('assets/images/site/hero-contact.jpg?v=2')"></div>
       <div class="how-page-hero-overlay"></div>
       <div class="how-page-hero-content">
         <p class="how-page-hero-tag how-anim">Contact Us</p>
@@ -85,6 +91,7 @@
               <textarea id="message" name="message" rows="5" required placeholder="Tell us how we can help…"></textarea>
             </div>
             <button type="submit" class="how-btn how-btn-dark">Send Message</button>
+            <p class="how-form-status" id="howFormStatus" role="status" aria-live="polite" hidden></p>
             <p class="how-form-note">This pilot form opens your email client with a pre-filled message. A hosted form or Jane App booking link will replace this at launch.</p>
           </form>
         </div>
@@ -161,6 +168,6 @@
     </div>
   </footer>
 
-  <script src="assets/site.js?v=32"></script>
+  <script src="assets/site.js?v=40"></script>
 </body>
 </html>

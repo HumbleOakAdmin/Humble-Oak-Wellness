@@ -10,13 +10,18 @@
   <link rel="canonical" href="https://humbleoakadmin.github.io/Humble-Oak-Wellness/">
   <title>Humble Oak Wellness | Allied Health Clinic — Abbotsford, BC</title>
   <meta name="description" content="Registered massage therapy and counselling in Abbotsford, Fraser Valley. Integrated allied health care as part of the Humble Oak family—helping people move, heal, and thrive.">
+  <meta name="theme-color" content="#5D3A1A">
+  <meta name="color-scheme" content="light">
   <link rel="icon" href="assets/images/logos/wellness-icon.jpeg" type="image/jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css?v=32">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css?v=40">
+  <link rel="preload" as="image" href="assets/images/site/hero-home.jpg?v=4">
 </head>
 <body data-page="home">
+  <div class="how-scroll-progress" id="howScrollProgress" aria-hidden="true"></div>
+  <a class="how-skip" href="#main">Skip to content</a>
   <div class="how-nav-backdrop" id="howNavBackdrop" aria-hidden="true"></div>
   <nav class="how-nav" id="howNav" aria-label="Main navigation">
     <button type="button" class="how-nav-toggle" id="howNavToggle" aria-label="Open menu" aria-expanded="false" aria-controls="howNavPanel">
@@ -35,7 +40,7 @@
     </div>
   </nav>
 
-  <main>
+  <main id="main">
     <section class="how-hero">
       <div class="how-hero-bg" style="background-image:url('assets/images/site/hero-home.jpg?v=4')"></div>
       <div class="how-hero-overlay"></div>
@@ -83,14 +88,14 @@
         <h2 class="how-heading-section how-anim">Our Services</h2>
         <p class="how-body how-sp-sub how-anim">Registered massage therapy and counselling, integrated under one roof in Abbotsford. Practitioner profiles and booking details coming in a future phase.</p>
         <div class="how-sp-grid how-sp-grid--two">
-          <div class="how-sp-card how-anim">
+          <a href="contact-us/" class="how-sp-card how-anim">
             <div class="how-sp-card-media" style="background-image:url('assets/images/site/service-rmt-card.jpg')" role="img" aria-label="Registered massage therapy"></div>
             <div class="how-sp-card-label"><h4 class="how-heading-card">Registered Massage Therapy</h4><p class="how-sp-card-desc">Therapeutic massage for recovery, tension, and the physical effects of stress held in the body.</p></div>
-          </div>
-          <div class="how-sp-card how-anim">
+          </a>
+          <a href="contact-us/" class="how-sp-card how-anim">
             <div class="how-sp-card-media" style="background-image:url('assets/images/site/service-counselling-card.jpg')" role="img" aria-label="Counselling"></div>
             <div class="how-sp-card-label"><h4 class="how-heading-card">Counselling</h4><p class="how-sp-card-desc">Mental health support for individuals and families&mdash;a safe space to process, heal, and grow.</p></div>
-          </div>
+          </a>
         </div>
         <div class="how-sp-cta-wrap">
           <a href="contact-us/" class="how-btn how-btn-accent">Request an Appointment</a>
@@ -167,6 +172,6 @@
     </div>
   </footer>
 
-  <script src="assets/site.js?v=32"></script>
+  <script src="assets/site.js?v=40"></script>
 </body>
 </html>

@@ -10,13 +10,18 @@
   <link rel="canonical" href="https://humbleoakadmin.github.io/Humble-Oak-Wellness/about-us/">
   <title>About Us | Humble Oak Wellness — Abbotsford Allied Health</title>
   <meta name="description" content="Learn about Humble Oak Wellness, an Abbotsford allied health clinic serving the Fraser Valley. Collaborative care rooted in community, nature, and whole-person wellness.">
+  <meta name="theme-color" content="#5D3A1A">
+  <meta name="color-scheme" content="light">
   <link rel="icon" href="assets/images/logos/wellness-icon.jpeg" type="image/jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css?v=32">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css?v=40">
+  <link rel="preload" as="image" href="assets/images/site/hero-about.jpg?v=4">
 </head>
 <body data-page="about">
+  <div class="how-scroll-progress" id="howScrollProgress" aria-hidden="true"></div>
+  <a class="how-skip" href="#main">Skip to content</a>
   <div class="how-nav-backdrop" id="howNavBackdrop" aria-hidden="true"></div>
   <nav class="how-nav" id="howNav" aria-label="Main navigation">
     <button type="button" class="how-nav-toggle" id="howNavToggle" aria-label="Open menu" aria-expanded="false" aria-controls="howNavPanel">
@@ -35,8 +40,9 @@
     </div>
   </nav>
 
-  <main>
-    <section class="how-page-hero" style="background-image:url('assets/images/site/hero-about.jpg?v=4')">
+  <main id="main">
+    <section class="how-page-hero">
+      <div class="how-page-hero-bg" style="background-image:url('assets/images/site/hero-about.jpg?v=4')"></div>
       <div class="how-page-hero-overlay"></div>
       <div class="how-page-hero-content">
         <p class="how-page-hero-tag how-anim">About Us</p>
@@ -140,6 +146,6 @@
     </div>
   </footer>
 
-  <script src="assets/site.js?v=32"></script>
+  <script src="assets/site.js?v=40"></script>
 </body>
 </html>
