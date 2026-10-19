@@ -199,7 +199,7 @@
       var phone = form.querySelector("[name='phone']").value.trim();
       var service = form.querySelector("[name='service']").value.trim();
       var message = form.querySelector("[name='message']").value.trim();
-      var subject = encodeURIComponent("Website Inquiry — Humble Oak Wellness");
+      var subject = encodeURIComponent("Website Inquiry, Humble Oak Wellness");
       var body = encodeURIComponent(
         "Name: " +
           first +
