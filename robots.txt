@@ -1,2 +1,4 @@
+# Indexing stays closed until the clinic address, phone, and hours are confirmed.
+# sitemap.xml is ready for that launch. Do not submit it before then.
 User-agent: *
 Disallow: /
