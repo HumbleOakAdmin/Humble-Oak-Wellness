@@ -152,6 +152,7 @@ img{display:block;border-radius:var(--radius);box-shadow:var(--shadow-md);border
 .how-values-grid{grid-template-columns:repeat(3,1fr)}
 .how-sp-grid{grid-template-columns:repeat(3,1fr)}
 .how-sp-grid--two{grid-template-columns:repeat(2,1fr);max-width:720px;margin-inline:auto}
+.how-sp-grid--one{grid-template-columns:minmax(0,360px);justify-content:center;max-width:360px;margin-inline:auto}
 .how-stat-band-inner{max-width:1200px;margin:0 auto}
 .how-stat-band .how-heading-section{margin-bottom:12px;color:var(--cream)}
 .how-stat-band .how-body{margin-bottom:clamp(28px,5vw,48px)}
